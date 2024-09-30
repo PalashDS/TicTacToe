@@ -22,14 +22,14 @@ This is a simple **Tic-Tac-Toe** game implemented in Python using the Tkinter li
    git clone https://github.com/PalashDS/TicTacToe.git
 
 ### Key Functions
-- check_winner():
+- **check_winner():**
 Checks rows, columns, and diagonals to see if there is a winner.
 
-- disable_buttons():
+- **disable_buttons():**
 Disables all buttons once the game has ended.
 
-- click(row, col):
+- **click(row, col):**
 Called when a player clicks on a square. It updates the square with the current player's mark and checks for a win or tie.
 
-- reset_game():
+- **reset_game():**
 Clears the board and resets the game for a new round.
